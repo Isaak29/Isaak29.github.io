@@ -28,9 +28,7 @@
             color: #333;
         }
 
-        .skills-list {
-            list-style: none;
-            padding: 0;
+        .skills-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
@@ -45,6 +43,20 @@
             text-align: center;
             width: 120px;
         }
+
+        .about-me {
+            margin-top: 20px;
+            text-align: justify;
+        }
+
+        .contact {
+            margin-top: 20px;
+        }
+
+        .contact a {
+            display: block;
+            margin-top: 10px;
+        }
     </style>
 </head>
 
@@ -55,21 +67,36 @@
     </header>
 
     <section>
+        <h2>About Me</h2>
+        <p class="about-me">
+            As a passionate backend developer, I thrive on turning complex problems into elegant solutions using Python. With a solid foundation in web development, I specialize in creating robust and efficient websites. My continuous exploration of new technologies keeps me at the forefront of the ever-evolving tech landscape.
+        </p>
+    </section>
+
+    <section>
         <h2>Skills</h2>
-        <ul class="skills-list">
+        <div class="skills-container">
             
-            <li class="skill">Python</li>
-            <li class="skill">Django</li>
-            <li class="skill">Flask</li>
-            <li class="skill">FastAPI</li>
-            <li class="skill">Firebase</li>
-            <li class="skill">MongoDB</li>
-            <li class="skill">HTML5</li>
-            <li class="skill">CSS3</li>
-            <li class="skill">JavaScript</li>
-            <li class="skill">RESTful APIs</li>
-            <li class="skill">Code Optimization</li>
-        </ul>
+            <div class="skill">Python</div>
+            <div class="skill">Django</div>
+            <div class="skill">Flask</div>
+            <div class="skill">FastAPI</div>
+            <div class="skill">Firebase</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">RESTful APIs</div>
+            <div class="skill">Code Optimization</div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out:</p>
+        <a href="tel:+7708514629">Phone: +91 77085 14629</a>
+        <a href="https://www.linkedin.com/in/mohammed-isaak-mujamil-790620247/" target="_blank">LinkedIn Profile</a>
+        <a href="https://github.com/Isaak29" target="_blank">GitHub Profile</a>
     </section>
 </body>
 
