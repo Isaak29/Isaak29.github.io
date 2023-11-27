@@ -28,13 +28,22 @@
             color: #333;
         }
 
-        ul {
+        .skills-list {
             list-style: none;
             padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
 
-        li {
-            margin-bottom: 0.5em;
+        .skill {
+            background-color: #61dafb;
+            color: #fff;
+            padding: 0.5em;
+            margin: 0.5em;
+            border-radius: 5px;
+            text-align: center;
+            width: 120px;
         }
     </style>
 </head>
@@ -47,19 +56,19 @@
 
     <section>
         <h2>Skills</h2>
-        <ul>
+        <ul class="skills-list">
             
-            <li>Python</li>
-            <li>Django</li>
-            <li>Flask</li>
-            <li>FastAPI</li>
-            <li>Firebase</li>
-            <li>MongoDB</li>
-            <li>RESTful APIs</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Code Optimization</li>
+            <li class="skill">Python</li>
+            <li class="skill">Django</li>
+            <li class="skill">Flask</li>
+            <li class="skill">FastAPI</li>
+            <li class="skill">Firebase</li>
+            <li class="skill">MongoDB</li>
+            <li class="skill">HTML5</li>
+            <li class="skill">CSS3</li>
+            <li class="skill">JavaScript</li>
+            <li class="skill">RESTful APIs</li>
+            <li class="skill">Code Optimization</li>
         </ul>
     </section>
 </body>
